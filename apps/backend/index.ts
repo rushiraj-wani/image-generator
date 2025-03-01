@@ -4,6 +4,7 @@ import {
   GenerateImage,
   PackGeneratedImages,
 } from "../../packages/common/types";
+import { prismaClient } from "../../packages/db";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
